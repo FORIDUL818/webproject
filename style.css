@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+nav {
+    background: rgb(21, 79, 206);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    position:relative;
+    left: 100px;
+}
+.manu ul {
+    padding: 30px;
+    display: flex;
+}
+.manu ul li {
+    padding: 15px;
+   list-style: none;
+   text-transform:uppercase;
+}
+.manu ul li a{
+   text-decoration: none;
+   color: white;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://th.bing.com/th/id/R.48e495ed4601f7f53371c4a8473c0d7e?rik=B0D3ApRrbKMTcw&riu=http%3a%2f%2f3.bp.blogspot.com%2f-DWMXiqFQQsM%2fTn2j9xWAwyI%2fAAAAAAAAAE0%2fXpQA7OtDGTw%2fs1600%2famazing_nature_pictures%2b4.jpg&ehk=TAHk8bLex8VDRXFDa5Ny62QBjEV3Af1xIKXwgRGkupE%3d&risl=&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   position: relative;
+}
+.bContant{
+    width: 25%;
+    position: relative;
+    top: 50%;
+    left: 35%;
+}
+h1{
+    color: rgb(248, 248, 248);
+    text-align: center;
+    line-height: 70px;
+}
+.contant1{
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    height: 135px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    opacity: 0.6;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .img-container:hover{
+        opacity: 1;
+  }
+  .myImage{
+    opacity: 0.6;
+  }
+  .myImage:hover{
+    opacity: 1;
+  }
